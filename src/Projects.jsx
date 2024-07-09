@@ -34,11 +34,11 @@ function Projects() {
                 <h3 className="projects_desc">Here you can see some of my projects that I have done on my own</h3>
                 <h3 className="projects_desc">Click on the specific project to see more</h3>
                 <div className="project_content">
-                    <PerProject path="https://to-do-list-silk-pi.vercel.app/" src={imgSrc4} about="A to-do list, totally made of JavaScript, that can save todoes and attach to a member of a team" title="To-Do list" />
-                    <PerProject path="https://timer-gules-one.vercel.app/" src={imgSrc3} about="A timer that is totally made of JavaScript" title="JS Timer" />
-                    <PerProject path="https://kinoarea-htmi-css.vercel.app/" src={imgSrc1} about="A cinema site project with the focus on CSS" title="Kinoarea" />
-                    <PerProject path="https://project-for-encouraging-amazon-products.vercel.app/" src={imgSrc2} about="A site,only made of HTML and CSS, for encouraging the sale of products." title="Tech maven" />
-                    <PerProject path="https://alimmamadovsimple-online-shop-khursheds-projects-10284ca4.vercel.app/" src={imgSrc5} about="A site, made mainly with the focus on HTML and CSS, for encouraging the sale of products." title="Online market" />
+                    <PerProject path="https://alimmamadov-project-to-do-list.vercel.app/" src={imgSrc4} about="A to-do list, totally made of JavaScript, that can save todoes and attach to a member of a team" title="To-Do list" />
+                    <PerProject path="https://alimmamadov-project-timer.vercel.app/" src={imgSrc3} about="A timer that is totally made of JavaScript" title="JS Timer" />
+                    <PerProject path="https://alimmamadov-project-smart-home-technologies.vercel.app/" src={imgSrc1} about="A cinema site project with the focus on CSS" title="Kinoarea" />
+                    <PerProject path="https://alimmamadov-project-kinoarea-htmi-css.vercel.app/" src={imgSrc2} about="A site,only made of HTML and CSS, for encouraging the sale of products." title="Tech maven" />
+                    <PerProject path="https://alimmamadov-project-simple-online-shop.vercel.app/" src={imgSrc5} about="A site, made mainly with the focus on HTML and CSS, for encouraging the sale of products." title="Online market" />
                 </div>
                 <h3 className="projects_desc">To see more and source of my projects...</h3>
         <Path logo={<GitHubIcon />} pathSrc="https://github.com/Khurshedjan04" title="Visit My GitHub" />
