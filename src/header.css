@@ -1,0 +1,65 @@
+.header_alt {
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  background: linear-gradient(to bottom, black -100%, rgba(0, 0, 0, 0) 600%);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  color: white;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+}
+.header_shrink {
+  height: 40px;
+  transform: scale(1, 0.9);
+  margin-top: 5px;
+  font-size: 18px !important;
+}
+.menuBar {
+  display: none;
+}
+.name {
+  font-size: 35px;
+  color: gold;
+}
+.name:hover {
+  font-size: 35px;
+  color: darkgoldenrod;
+}
+.list {
+  font-size: 22px;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.list button {
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.list_items {
+  font-size: 22px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+.list_items:hover {
+  color: rgb(197, 197, 197);
+  transform: scale(1.01);
+  transition: all linear 0.1s;
+}
+.header_alt ul a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,39 @@
+.avatar_main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  color: white;
+  padding-top: 40px;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.avatar_img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 10px solid white;
+  margin: 0 0 10px 0;
+}
+.avatar_path {
+  padding: 15px 30px;
+  margin: 30px 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(39, 39, 39);
+  background-color: white;
+}
+.avatar_path:hover {
+  background-color: rgb(197, 197, 197);
+  color: black;
+  transform: scale(1.01);
+  transition: all linear 0.1s;
+}

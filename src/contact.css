@@ -1,0 +1,45 @@
+.contact_sec {
+    background-color: rgb(15, 15, 15);
+    background: url(images/9l7ftA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 100;
+}
+.contact_sec_main {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 70px 0;
+}
+.contact_sec_main h1 {
+    font-size: 40px;
+}
+.contact_sec_main h2 {
+    font-size: 25px;
+}
+.contact_sec_main span {
+   color: gold;
+}
+.contact_logo_path {
+    color: white;
+    margin: 20px;
+}
+.author {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+.go_top {
+    position: absolute;
+    right: 50px;
+    color: white;
+    bottom: 50px;
+}
+.go_top_logo {
+    position: relative;
+    top: 8px;
+}

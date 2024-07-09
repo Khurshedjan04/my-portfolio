@@ -1,0 +1,39 @@
+.main_back_alt {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/photo_2024-07-10_00-03-41.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main_col_alt {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.main {
+  margin-top: 100px;
+  height: 100%;
+  padding-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main_back {
+  width: 100%;
+  height: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
+}
