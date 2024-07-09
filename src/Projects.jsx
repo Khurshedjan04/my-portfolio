@@ -36,8 +36,8 @@ function Projects() {
                 <div className="project_content">
                     <PerProject path="https://alimmamadov-project-to-do-list.vercel.app/" src={imgSrc4} about="A to-do list, totally made of JavaScript, that can save todoes and attach to a member of a team" title="To-Do list" />
                     <PerProject path="https://alimmamadov-project-timer.vercel.app/" src={imgSrc3} about="A timer that is totally made of JavaScript" title="JS Timer" />
-                    <PerProject path="https://alimmamadov-project-smart-home-technologies.vercel.app/" src={imgSrc1} about="A cinema site project with the focus on CSS" title="Kinoarea" />
-                    <PerProject path="https://alimmamadov-project-kinoarea-htmi-css.vercel.app/" src={imgSrc2} about="A site,only made of HTML and CSS, for encouraging the sale of products." title="Tech maven" />
+                    <PerProject path="https://alimmamadov-project-kinoarea-htmi-css.vercel.app/" src={imgSrc1} about="A cinema site project with the focus on CSS" title="Kinoarea" />
+                    <PerProject path="https://alimmamadov-project-smart-home-technologies.vercel.app/" src={imgSrc2} about="A site,only made of HTML and CSS, for encouraging the sale of products." title="Tech maven" />
                     <PerProject path="https://alimmamadov-project-simple-online-shop.vercel.app/" src={imgSrc5} about="A site, made mainly with the focus on HTML and CSS, for encouraging the sale of products." title="Online market" />
                 </div>
                 <h3 className="projects_desc">To see more and source of my projects...</h3>
