@@ -56,3 +56,8 @@
         display: none;
     }
 }
+@media (max-width: 480px) {
+  .menu {
+    position: fixed;
+    top: 40px;
+}}

@@ -31,12 +31,6 @@ h2 {
   color: rgb(39, 39, 39);
   background-color: white;
 }
-.avatar_path:hover {
-  background-color: rgb(197, 197, 197);
-  color: black;
-  transform: scale(1.01);
-  transition: all linear 0.1s;
-}
 @media (max-width: 440px) {
   h1 {
     font-size: 40px;
@@ -55,5 +49,13 @@ h2 {
     font-size: 22px;
     margin-top: 5px;
     margin-bottom: 10px;
+  }
+}
+@media (min-width: 769px) {
+  .avatar_path:hover {
+    background-color: rgb(197, 197, 197);
+    color: black;
+    transform: scale(1.01);
+    transition: all linear 0.1s;
   }
 }

@@ -30,10 +30,7 @@
   font-size: 35px;
   color: gold;
 }
-.name:hover {
-  font-size: 35px;
-  color: darkgoldenrod;
-}
+
 .list {
   font-size: 22px;
   width: 55%;
@@ -53,11 +50,7 @@
   border: none;
   box-shadow: none;
 }
-.list_items:hover {
-  color: rgb(197, 197, 197);
-  transform: scale(1.01);
-  transition: all linear 0.1s;
-}
+
 .header_alt ul a {
   display: flex;
   align-items: center;
@@ -128,5 +121,16 @@
 @media (max-width: 320px) {
   .header .name {
     font-size: 19px;
+  }
+}
+@media (min-width: 769px) {
+  .name:hover {
+    font-size: 35px;
+    color: darkgoldenrod;
+  }
+  .list_items:hover {
+    color: rgb(197, 197, 197);
+    transform: scale(1.01);
+    transition: all linear 0.1s;
   }
 }

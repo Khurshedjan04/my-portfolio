@@ -62,10 +62,7 @@
   bottom: 0;
   transition: all linear 0.2s;
 }
-.per_project .inner:hover {
-  background-color: rgba(19, 20, 20, 0.842);
-  border: 20px antiquewhite solid;
-}
+
 .projects_sec_main .about_path {
   padding: 15px 25px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -78,9 +75,7 @@
   align-items: center;
   gap: 5px;
 }
-.projects_sec_main .about_path:hover {
-  background-color: #151618;
-}
+
 .about_path:hover {
   background-color: #dfdfdf;
 }
@@ -116,5 +111,14 @@
   }
   .project_content {
     margin-top: 30px;
+  }
+}
+@media (min-width: 769px) {
+  .per_project .inner:hover {
+    background-color: rgba(19, 20, 20, 0.842);
+    border: 20px antiquewhite solid;
+  }
+  .projects_sec_main .about_path:hover {
+    background-color: #151618;
   }
 }
