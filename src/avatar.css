@@ -37,3 +37,23 @@ h2 {
   transform: scale(1.01);
   transition: all linear 0.1s;
 }
+@media (max-width: 440px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 340px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}

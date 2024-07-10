@@ -47,7 +47,7 @@ function About() {
                     </div>
                     <AboutRight />
                 </div>
-                <h1>Learn more about my</h1>
+                <h1 className='path_above'>Learn more about my</h1>
                 <div className="paths">
                     <Path pathSrc="#skilld_sec" title="Skills" />
                     <Path pathSrc="#projects_sec" title="Projects" />

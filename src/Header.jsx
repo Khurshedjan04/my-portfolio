@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import "./header.css"
 import FilePresentIcon from '@mui/icons-material/FilePresent';
 import Resume from "./resume.pdf"
+import MenuBar from './burger-menu';
 
 function Header() {
 
@@ -19,8 +20,8 @@ function Header() {
 
     function ResumeButton() {
         const handleDownload = () => {
-            const resumeUrl = Resume; // Replace with your actual filename
-            window.open(resumeUrl, "_blank"); // Open in a new tab
+            const resumeUrl = Resume; 
+            window.open(resumeUrl, "_blank"); 
         };
 
         return (
@@ -34,11 +35,10 @@ function Header() {
             <div className={isFixed ? 'header header_shrink' : 'header'}
 
             >
-
                 <a href='#' className="name">
                     Xurshed Alimmamadov
                 </a>
-                <button className='menuBar'> Menu</button>
+                <MenuBar />
                 <ul className="list">
                     <a href='#about' className="list_items">About</a>
                     <a href='#skilld_sec' className="list_items">Skills</a>

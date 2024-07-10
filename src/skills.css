@@ -40,6 +40,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 30px;
 }
 .emphasize {
   color: gold;
@@ -70,4 +71,52 @@
 .skill_logo img {
   width: 130px;
   height: 120px;
+}
+@media (max-width: 1084px) {
+  .skills_main {
+    max-width: 90%;
+  }
+  .per_skill {
+    width: 260px;
+  }
+}
+@media (max-width: 1000px) {
+  .skills_content {
+    gap: 30px;
+  }
+  .per_skill {
+    width: 30%;
+  }
+}
+@media (max-width: 914px) {
+  .skills_content {
+    gap: 20px;
+  }
+  .per_skill {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .skills_content {
+    gap: 20px;
+  }
+  .per_skill {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .skills_main {
+    padding: 50px 0;
+  }
+  .skills_content {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 420px) {
+  .skills_title {
+    font-size: 28px;
+  }
+  .skills_desc {
+    font-size: 16px;
+  }
 }

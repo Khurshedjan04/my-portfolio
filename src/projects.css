@@ -84,3 +84,37 @@
 .about_path:hover {
   background-color: #dfdfdf;
 }
+@media (max-width: 1184px) {
+  .projects_sec_main {
+    max-width: 90%;}
+}
+@media (max-width: 900px) {
+  .per_project {
+    position: relative;
+    width: 50%;
+  }
+}
+@media (max-width: 540px) {
+  .project_content {
+    gap: 15px;
+  }
+  .per_project {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+  .projects_sec_main {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 420px) {
+  .projects_title {
+    font-size: 28px;
+  }
+  .projects_desc {
+    font-size: 16px;
+  }
+  .project_content {
+    margin-top: 30px;
+  }
+}

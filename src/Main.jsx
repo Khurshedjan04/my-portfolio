@@ -9,7 +9,7 @@ function Main() {
         <div className='main'>
             <Header />
             <div className="main_back_alt"></div>
-            <div className="main_col_alt"></div>
+            <div id='home' className="main_col_alt"></div>
             <div className="main_back">
                 <Avatar />
             </div>
